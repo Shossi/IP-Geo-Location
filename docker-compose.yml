@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: "joeyhd/iplocator"
+    image: "joeyhd/iplocator" # Name of the image in docker hub
     ports:
-      - "80:8080"
+      - "80:8080" # Port allocation - 8080 inside the container and 80 to access it.
